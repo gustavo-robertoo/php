@@ -6,20 +6,14 @@
     <title>exp06.php</title>
 </head>
 <body>
-    <?php
-    $txt1 = "learn PHP";
+   <?php
+     $txt1 = "Learn PHP";
     $txt2 = "W3Schools.com";
     $x = 5;
-    $Y = 4;
-    
+    $y = 4;
     print "<h2>" . $txt1 . "</h2>";
     print "Study PHP at " . $txt2 . "<br>";
-    print $x + $y; 
-    ?>
-     <?php
-    print "<h2> PhP </h2>";
-    print "Hello world <br>";
-    print "I'm about to learn PHP!";
+    print $x + $y;
     ?>
 </body>
 </html>

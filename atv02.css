@@ -1,0 +1,27 @@
+#div1{
+
+    background-color: orange;
+    width: 1400px;
+    height: 500px;
+    text-align: center;
+    font-size: x-large;
+}
+#div2{
+    background-color: black;
+    width: 1500px;
+    height: 500px;
+}
+#div3{
+    background-color: green;
+    width: 1500px;
+    height: 500px;
+}
+#div4{
+    background-color: brown;
+    width: 1500px;
+    height: 500px;
+}
+
+h1{
+    color: white;
+}

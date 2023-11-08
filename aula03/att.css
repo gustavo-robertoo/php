@@ -1,0 +1,27 @@
+#div1{
+    background-color: #5c2e4d;
+    height: 400px;
+}
+#div2{
+    background-color: hsl(101, 19%, 17%);
+    height: 400px;
+}
+#div3{
+    background-color: hsl(10, 78%, 25%);
+    height: 400px;
+}
+#div4{
+    background-color: rgba(44, 73, 73, 0.8);
+    height: 400px;
+}
+
+div div{
+    margin: 0 auto;
+    background-color: aliceblue;
+    height: 50px;
+    width: 50px;
+}
+div{
+    display: flex;
+    align-items: center;
+}

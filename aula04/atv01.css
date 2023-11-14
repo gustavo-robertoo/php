@@ -1,0 +1,12 @@
+ body{
+    background-image: url(curry.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-attachment: scroll;
+    background-size: 500px 500px;
+
+ }
+ h1{
+    font-size: small;
+ }
+ 

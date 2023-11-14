@@ -1,0 +1,18 @@
+body{
+    background-color: yellow;
+}
+
+div{
+    background-image: url(santos.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    border-style: solid;
+    background-color: hsl(69, 80%, 63%);
+}
+
+h1{
+    border-style: solid;
+    width: 140px;
+    margin-left: 10px;
+}
+

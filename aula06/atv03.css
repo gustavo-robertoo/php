@@ -1,0 +1,41 @@
+.box{
+    background-color: black;
+    border: solid yellowgreen;
+    height: 600px;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-areas: "titulo titulo titulo"
+                         "menuE conteudo menuD";
+    grid-template-rows: 100px 1fr ;
+    grid-template-columns: 140px 1fr 140px;
+}
+.titulo .nome{
+    margin-top: 5px;
+    margin-left: 580px;
+    border: black 3px solid;
+    width: 206px;
+    height: 80px;
+    background-color: aqua;
+}
+.titulo img{
+    height: 30px;
+    width: 30px;
+    margin-top: 5px;
+
+}
+.titulo{
+    background-color: cadetblue;
+    grid-area: titulo;
+}
+.menuE{
+    background-color: burlywood;
+    grid-area: menuE;
+}
+.menuD{
+    background-color: coral;
+    grid-area: menuD;
+}
+.conteudo{
+    background-color: aqua;
+    grid-area: conteudo;
+}

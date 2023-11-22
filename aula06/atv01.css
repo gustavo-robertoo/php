@@ -1,0 +1,23 @@
+.box{
+    background-color: black;
+    border-style: solid;
+    display: grid;
+    height: 600px;
+    grid-template-areas: "titulo titulo"
+                          "me cont";
+    grid-template-rows: 50px 1fr;
+    grid-template-columns: 200px 1fr; 
+}
+.titulo{
+    background-color: green;
+    grid-area: titulo;
+    
+}
+.conteudo{
+    background-color: blue;
+    grid-area: cont;
+}
+.menuE{
+    background-color: yellowgreen;
+    grid-area: me;
+}

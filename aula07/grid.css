@@ -1,0 +1,39 @@
+body{
+   background-color: blue;
+}
+
+.box{
+   display: grid;
+   grid-template-areas: "h h h"
+                        "Me Ma R"
+                        "Me F F";
+   grid-template-columns: 300px 900px 1fr;
+   grid-template-rows: 100px 500px 140px;
+   gap: 10px;
+   text-align: center;
+}
+.header{
+   grid-area: h;
+   background-color: antiquewhite;
+   padding-top: 40px;
+}
+.menu{
+   grid-area: Me;
+   background-color: antiquewhite;
+   padding-top: 350px;
+}
+.main{
+   grid-area: Ma;
+   background-color: antiquewhite;
+   padding-top: 220px;
+}
+.right{
+   grid-area: R;
+   background-color: antiquewhite;
+   padding-top: 220px;
+}
+.footer{
+   grid-area: F;
+   background-color: antiquewhite;
+   padding-top: 50px;
+}

@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+}
+
+.box{
+    display: grid;
+    grid-template-areas: "header header"
+                         "section lat"
+                         "foot foot";
+    grid-template-rows: 200px 500px 100px;
+    grid-template-columns: 800px 1fr;
+    width: 80%;
+}
+header{
+    background-color: brown;
+    grid-area: header;
+}
+section{
+    grid-area: section;
+    display: flex;
+    flex-direction: column;
+}
+.c1, .c2, .c3{
+    height: 33.3%;
+    width: 100%;
+    background-color: yellowgreen;
+}
+.c2{
+    background-color: yellow;
+}
+
+footer{
+    grid-area: foot;
+    display: flex;
+    flex-direction: row;
+}
+
+.p1, .p2, .p3{
+    width: 33.3%;
+    background-color: red;
+}
+
+aside{
+    background-color: green;
+    grid-area: lat;
+}
+.p2{
+    background-color: cadetblue;
+}

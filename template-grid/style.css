@@ -1,0 +1,89 @@
+.box {
+    display: grid;
+    grid-template-areas:
+      "left header right"
+      "left main right"
+      "footer footer footer";
+    grid-template-columns: 300px 1fr 200px;
+    grid-template-rows: 200px 680px 100px;
+  }
+  .header {
+    grid-area: header;
+    background-color: green;
+  }
+  .header > a {
+    text-align: center;
+    margin: 100px;
+  }
+  .left {
+    grid-area: left;
+    background-color: gray;
+  }
+  img {
+    margin: 10px;
+    width: 250px;
+    height: 200px;
+  }
+  .left > .box1 {
+    background-color: blue;
+    width: 250px;
+    height: 200px;
+    font-size: 20px;
+    text-align: center;
+  }
+  .left > .box1 > p {
+    padding-top: 25px;
+  }
+  .left > .box2 {
+    background-color: brown;
+    width: 250px;
+    height: 200px;
+  }
+  
+  .right {
+    grid-area: right;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .right > p {
+    padding-top: 10px;
+  }
+  .right > h2 {
+    font-size: 20px;
+    font-weight: lighter;
+  }
+  .main {
+    grid-area: main;
+    background-color: yellowgreen;
+    display: flex;
+  }
+  .footer {
+    grid-area: footer;
+    background-color: purple;
+  }
+  .right .p1{
+    background-color: red;
+    height: 33%;
+  }
+  .right .p2{
+    background-color: green;
+    height: 33%;
+  }
+  .right .p3{
+    background-color: white;
+    height: 33%;
+  }
+  .main .col1{
+    background-color: chocolate;
+    width:  33.3%;
+  }
+  .main .col2{
+    background-color: darkmagenta;
+    width:  33.3%;
+  }
+  .main .col3{
+    background-color: darkviolet;
+    width:  33.3%;
+  }

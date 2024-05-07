@@ -13,5 +13,13 @@
     
     echo "<br>";
 
+    $varPro = array("P" => "Nome");
+    $varIdadeP = array("P" => "IdadeP");
+    $varEndP = array("P" => "EndP");
+    $varCidP = array("P" => "CidP");
+    $varEstP = array("P" => "EstP");
+    $varCPFP = array("P" => "CPFP");
+
+
 
 ?>

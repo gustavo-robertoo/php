@@ -1,0 +1,12 @@
+th{
+    background-color: aqua;
+    border: 1px solid black;
+}
+td{
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+    border: 1px solid black;
+}

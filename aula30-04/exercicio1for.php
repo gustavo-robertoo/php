@@ -17,4 +17,5 @@ echo "[for]:";
    for ($a=0; $a<count($var3); $a++){
     echo $var3[$a];
    }
+   
 ?>
